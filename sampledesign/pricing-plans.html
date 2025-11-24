@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIIR - Pricing Plans</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-50">
+  <div class="max-w-6xl mx-auto px-6 py-16 space-y-12">
+    <header class="space-y-3 text-center">
+      <p class="text-xs uppercase tracking-[0.2em] text-emerald-300">Plans</p>
+      <h1 class="text-4xl font-bold">IR ダッシュボード プラン</h1>
+      <p class="text-slate-300">無料の週刊ダイジェストから、ウォッチリスト・アラート付きの Pro まで 3 プランを用意しました。</p>
+    </header>
+
+    <section class="grid gap-6 md:grid-cols-3">
+      <div class="relative p-8 rounded-2xl border border-slate-700 bg-slate-800/70 shadow-xl space-y-4">
+        <p class="text-sm font-semibold text-slate-200">Free</p>
+        <h2 class="text-3xl font-bold">¥0</h2>
+        <p class="text-slate-400 text-sm">週 1 回のニュースレターと 3 件のサンプル記事を閲覧可能。</p>
+        <ul class="space-y-2 text-sm text-slate-200">
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span>週刊ダイジェスト</li>
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span>人気タグでのフィルタ</li>
+          <li class="flex items-center gap-2 text-slate-500"><span class="h-2 w-2 rounded-full bg-slate-500"></span>ウォッチリスト (3 社まで)</li>
+        </ul>
+        <button class="w-full px-4 py-3 rounded-lg bg-emerald-500 text-slate-900 font-semibold hover:bg-emerald-400">無料で始める</button>
+      </div>
+
+      <div class="relative p-8 rounded-2xl border border-emerald-400 bg-gradient-to-br from-emerald-500/20 via-emerald-400/10 to-slate-800 shadow-2xl space-y-4">
+        <span class="absolute -top-3 right-4 px-3 py-1 rounded-full bg-emerald-400 text-slate-900 text-xs font-semibold">Most popular</span>
+        <p class="text-sm font-semibold text-slate-100">Pro</p>
+        <h2 class="text-3xl font-bold">¥5,800<span class="text-sm font-normal text-slate-300"> / 月</span></h2>
+        <p class="text-slate-200 text-sm">ウォッチリスト 30 社まで、開示速報アラートと KPI ダッシュボード付き。</p>
+        <ul class="space-y-2 text-sm text-slate-100">
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-white"></span>ウォッチリスト 30 社</li>
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-white"></span>Slack / Email アラート</li>
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-white"></span>KPI ダッシュボード</li>
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-white"></span>CSV エクスポート</li>
+        </ul>
+        <button class="w-full px-4 py-3 rounded-lg bg-white text-emerald-700 font-semibold hover:bg-slate-50">今すぐアップグレード</button>
+      </div>
+
+      <div class="relative p-8 rounded-2xl border border-slate-700 bg-slate-800/70 shadow-xl space-y-4">
+        <p class="text-sm font-semibold text-slate-200">Enterprise</p>
+        <h2 class="text-3xl font-bold">お問い合わせ</h2>
+        <p class="text-slate-400 text-sm">複数チームでの利用、専任カスタマーサクセス、SLA や監査ログに対応。</p>
+        <ul class="space-y-2 text-sm text-slate-200">
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span>無制限ウォッチリスト</li>
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span>専任オンボーディング</li>
+          <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-emerald-400"></span>セキュリティレビュー対応</li>
+          <li class="flex items-center gap-2 text-slate-500"><span class="h-2 w-2 rounded-full bg-slate-500"></span>専用環境 (オプション)</li>
+        </ul>
+        <button class="w-full px-4 py-3 rounded-lg bg-slate-50 text-slate-900 font-semibold hover:bg-slate-100">営業に問い合わせる</button>
+      </div>
+    </section>
+
+    <section class="grid gap-4 md:grid-cols-3 text-sm text-slate-200">
+      <div class="p-4 rounded-xl bg-slate-800/70 border border-slate-700">
+        <p class="font-semibold">セキュリティ</p>
+        <p class="text-slate-400 mt-1">IP 制限、監査ログ、SAML SSO に対応（Enterprise）。</p>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-800/70 border border-slate-700">
+        <p class="font-semibold">サポート</p>
+        <p class="text-slate-400 mt-1">Pro: チャット / メール。Enterprise: テクニカル CSM 付き。</p>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-800/70 border border-slate-700">
+        <p class="font-semibold">支払い</p>
+        <p class="text-slate-400 mt-1">クレジットカード / 請求書払いに対応。月払い・年払いを選択できます。</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
